@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Assignment 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="angular.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-app="LunchCheck">
+        <div ng-controller="LunchCheckController">
+            <input type="text" ng-model="lunchItem"> 
+            <button ng-click="checkData()">Check If Too Much</button>
+            <br/>
+            {{textValue}}
+            
+        </div>
+</body> 
+</html>
